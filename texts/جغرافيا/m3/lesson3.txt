@@ -1,0 +1,11 @@
+هذا نص تجريبي للدرس 3 في الميدان 3 لمادة geography.
+يمكنك استبداله بنصك الحقيقي.
+
+
+<div style="text-align:center;">
+  <img src="images/lesson1.png" alt="صورة الدرس" style="max-width:80%; border-radius:10px;">
+</div>
+
+
+
+دلاع

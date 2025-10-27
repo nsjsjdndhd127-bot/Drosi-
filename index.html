@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>موقع دروسي </title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>موقع دروسي</h1>
+      <p class="subtitle">ا</p>
+      <div id="last-lesson" class="last-lesson" aria-live="polite"></div>
+    </div>
+  </header>
+  <main class="container main-grid">
+    <section class="card" data-subject="tg">
+      <h2>التاريخ / الجغرافيا</h2>
+      <p>اضغط لفتح الخيارات: التاريخ أو الجغرافيا</p>
+      <button class="btn-donate btn-open">افتح</button>
+    </section>
+
+    <section class="card" data-subject="madaniya">
+      <h2>المدنية</h2>
+      <p>ميادين ودروس مع إدماج كلي</p>
+      <button class="btn-donate btn-open">افتح</button>
+    </section>
+
+    <section class="card" data-subject="islamia">
+      <h2>الإسلامية</h2>
+      <p>اختر الأستاذة ثم الدرس (18 درسًا لكل أستاذة)</p>
+      <button class="btn-donate btn-open">افتح</button>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden" aria-hidden="true">
+    <div class="modal-panel" role="document">
+      <button id="modal-close" class="modal-close" aria-label="إغلاق">✕</button>
+      <div id="modal-breadcrumb" class="breadcrumb"></div>
+      <div id="modal-body" class="modal-body"></div>
+      <div class="modal-footer"><button id="modal-close-bottom" class="btn-close-bottom">إغلاق</button></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small> <code>موقع دروس الحمدانية</code></small>
+    </div>
+  </footer>
+<div class="islamic-container">
+  <!-- كل بطاقات الدروس هنا -->
+</div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
